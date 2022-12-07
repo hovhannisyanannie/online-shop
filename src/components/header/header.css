@@ -1,0 +1,138 @@
+header{
+    position: fixed;
+    top:0;
+    z-index: 9;
+    width: 100%;
+  }
+  
+  header.scroll{
+    background-color:var(--white); 
+    transition: 1s ease-in-out;
+  }
+  
+  header.scroll a{
+    color:var(--black)!important;
+  }
+  
+  header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 80px;
+  }
+  
+  header .inner .box a {
+    font-size: 38px;
+    color:var(--lightOrange);  
+    white-space: nowrap;
+  }
+
+  header .inner .box .buttons a {
+    font-size: 18px;
+  }
+  
+  header .inner .box .nav ul {
+    display: flex;
+  }
+  
+  header .inner .box .nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;  
+  }
+  
+  header .inner .box a:hover {
+    transition: 2s ease-in-out;
+  }
+
+  header .nav-icon {
+    display: none;
+  }
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 18px;
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    transition: .8s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    color:var(--lightOrange)!important;
+  } 
+  
+  .nav-item a:hover{
+    color:var(--lightOrange)!important;
+  }
+  
+  .nav-links {
+    padding: 8px 16px;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 960px) {
+  .nav-icon {
+    display: block!important;
+    position: absolute;
+    top: 20px;
+    right:85px;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--lightOrange);
+  }
+
+  header .navbar.scroll .nav-icon {
+    color: black;
+  }
+  
+  header .inner .box a{
+    font-size: 28px;
+    white-space:nowrap;
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    height: 100vh;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-menu.active {
+    background-color: var(--black);
+    background-color:var(--black);
+    left: 0px;
+    transition: all 1s ease;
+    z-index: 1;
+  }
+  
+  .nav-links {
+    padding: 22px;
+    width: 100%;
+    display: block;
+    }
+
+    .nav-item:after {
+      background-color:var(--lightOrange)!important;
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    header .inner .box:first-child a{
+      font-size: 20px;
+      padding-right: 40px;
+      white-space: normal;
+    }
+  }
+  

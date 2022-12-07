@@ -1,0 +1,110 @@
+footer{
+    padding: 70px 0;
+    background:var(--black);
+    overflow-x: hidden!important; 
+  }
+  
+  footer .inner{
+    display: flex;
+    justify-content:space-around;
+    gap:55px;
+  }
+  
+  footer .inner .box{
+    width: 24%;
+  }
+
+  footer a{
+    display: inline-block;
+  }
+  
+  footer .inner .box a.logo{
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:var(--lightOrange);
+    letter-spacing: 5px;
+    padding: 5px 25px;
+    border: 3px solid var(--lightOrange);
+    border-right: none;
+    border-left: 20px solid var(--lightOrange);
+    margin-bottom: 25px;
+    white-space: nowrap
+    
+  }
+  
+  footer .inner .box p{
+    color: var(--white);
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 25px;
+  }
+
+  footer .inner .box ul.social li{
+    display: inline-block;
+    margin: 15px 15px 15px 0;
+  }
+
+  footer .inner .box ul.social li a{
+    font-size: 20px;
+    color:var(--lightOrange);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--lightOrange);
+    background: transparent;
+    text-align: center;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+  }
+  
+  footer .inner .box ul.social li a:hover{
+    background: var(--white);
+    color: var(--black);
+  }
+  
+  footer .inner .box h4{
+    font-size: 24px;
+    color: var(--white);
+    text-transform: uppercase;
+    padding-bottom: 35px;
+  }
+  
+  footer .inner .box h4 ~ ul li a{
+    display: block;
+    color: var(--white);
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 5px 0;
+    margin-bottom: 8px;
+    transition: .3s ease-in-out;
+  }
+  
+  footer .inner .box h4 ~ ul li a:hover{
+    margin-left: 10px;
+    font-size: 17px;
+    transition: 1s ease-in-out;
+  } 
+
+  footer .scroll-to-top {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:var(--black);
+} 
+  
+@media (max-width: 991px) {
+    footer .inner{
+         flex-wrap: wrap;
+         text-align: center;
+     }
+   }
+   @media (max-width: 768px) {
+     footer .inner .box{
+         width: 90%;
+         text-align: center;
+     }
+   }
+   
+   
