@@ -50,7 +50,7 @@
   }
   
   .cart .container .left h3{
-    white-space: nowrap;
+    /* white-space: nowrap; */
     text-transform: capitalize!important;
     color:var(--white);
   }
