@@ -78,6 +78,9 @@ header{
   }
   
   @media screen and (max-width: 960px) {
+    header.scroll a{
+      color:var(--lightOrange)!important;
+    }  
   .nav-icon {
     display: block!important;
     position: absolute;
