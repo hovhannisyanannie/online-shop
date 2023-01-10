@@ -22,7 +22,7 @@
       width: 100%;
       position: relative;
       z-index:1;
-      overflow-y: auto;
+      /* overflow-y: auto; */
       left:-70px;
       box-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
       background-color: var(--white);
@@ -35,6 +35,7 @@
       top:80px;
       left:84px; 
       padding-right: 10px;
+      overflow-y: auto;
     }
     
     .about .container .inner .content .box h3{
