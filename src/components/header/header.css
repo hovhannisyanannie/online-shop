@@ -80,7 +80,13 @@ header{
   @media screen and (max-width: 960px) {
     header.scroll .nav a{
       color:var(--lightOrange)!important;
+    } 
+    
+    header.scroll .nav-icon{
+      color:var(--black)!important;
     }  
+    
+
   .nav-icon {
     display: block!important;
     position: absolute;
