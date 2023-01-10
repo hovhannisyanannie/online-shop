@@ -25,7 +25,7 @@ const Product = () => {
         const getProduct = async () => {
             setLoading(true);
 
-            const response = await fetch (`http://localhost:3000/products/${id}`);
+            const response = await fetch (`https://json-server-products.onrender.com/products/${id}`);
             setProduct(await response.json());
             setLoading(false);
         }

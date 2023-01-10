@@ -21,7 +21,7 @@ const Home = () => {
         const getProducts = async () => {
             setLoading(true);
 
-            const response = await fetch ("http://localhost:3000/products");
+            const response = await fetch ("https://json-server-products.onrender.com/products");
                 setData(await response.clone().json());
                 setFilter(await response.json());
                 setLoading(false);
