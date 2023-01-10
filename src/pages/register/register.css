@@ -39,7 +39,7 @@
 }
 
 .form-container form .btn{
-    background-color: teal;
+    background-color: var(--lightOrange);
     color:var(--white);
     font-size: 20px;
     padding: 10px 0;
