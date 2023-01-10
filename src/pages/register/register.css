@@ -34,7 +34,7 @@
 .form-container form input[type="text"]::placeholder, 
 .form-container form input[type="password"]::placeholder,
 .form-container form input[type="email"]::placeholder{
-    color:rgb(60, 50, 50);
+    color:var(--white);
     font-weight: 200;
 }
 
