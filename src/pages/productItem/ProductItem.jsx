@@ -25,7 +25,7 @@ const Product = () => {
         const getProduct = async () => {
             setLoading(true);
 
-            const response = await fetch (`https://json-server-products.onrender.com/products/${id}`);
+            const response = await fetch (`https://uninterested-jade-sheep.cyclic.app/products/${id}`);
             setProduct(await response.json());
             setLoading(false);
         }

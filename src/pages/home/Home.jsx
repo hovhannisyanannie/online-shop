@@ -21,7 +21,7 @@ const Home = () => {
         const getProducts = async () => {
             setLoading(true);
 
-            const response = await fetch ("https://json-server-products.onrender.com/products");
+            const response = await fetch ("https://uninterested-jade-sheep.cyclic.app/products");
                 setData(await response.clone().json());
                 setFilter(await response.json());
                 setLoading(false);
