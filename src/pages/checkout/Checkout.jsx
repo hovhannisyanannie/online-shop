@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import "./checkout.css"
 
 
@@ -56,7 +57,7 @@ const Checkout = () => {
                         <input type="tel" id='phone' />
                     </div>                   
                     <div className="form-group">
-                        <button className='button'>Checkout</button>
+                    <Link to="/" className='button'>Checkout</Link>
                     </div>
                 </form>
                 <div className="box">
