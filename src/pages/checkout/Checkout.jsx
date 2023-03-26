@@ -56,7 +56,7 @@ const Checkout = () => {
                         <input type="tel" id='phone' />
                     </div>                   
                     <div className="form-group">
-                        <button type="submit" className='button'>Checkout</button>
+                        <button className='button'>Checkout</button>
                     </div>
                 </form>
                 <div className="box">
