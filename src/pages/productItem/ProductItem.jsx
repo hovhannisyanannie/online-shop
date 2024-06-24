@@ -25,7 +25,7 @@ const Product = () => {
         const getProduct = async () => {
             setLoading(true);
 
-            const response = await fetch (`https://long-jade-fez.cyclic.app/products/${id}`);
+            const response = await fetch (`https://product-json-six.vercel.app/products/${id}`);
             setProduct(await response.json());
             setLoading(false);
         }

@@ -21,7 +21,7 @@ const Home = () => {
         const getProducts = async () => {
             setLoading(true);
 
-            const response = await fetch ("https://long-jade-fez.cyclic.app/products");
+            const response = await fetch ("https://product-json-six.vercel.app/products");
                 setData(await response.clone().json());
                 setFilter(await response.json());
                 setLoading(false);
